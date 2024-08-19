@@ -33,8 +33,8 @@ from config import finalize_configs
 from data import get_train_dataflow
 from dataset import register_coco, register_voc
 
-from FasterRCNN.eval import EvalCallback
-from FasterRCNN.modeling.generalized_rcnn import ResNetC4Model, ResNetFPNModel
+from third_party.FasterRCNN.FasterRCNN.eval import EvalCallback
+from third_party.FasterRCNN.FasterRCNN.modeling.generalized_rcnn import ResNetC4Model, ResNetFPNModel
 from utils.stac_helper import PathLog
 
 try:

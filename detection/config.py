@@ -22,8 +22,8 @@ import re
 
 from tensorpack.utils import logger
 from tensorpack.utils.gpu import get_num_gpu
-from FasterRCNN.config import *
-from FasterRCNN.config import config
+from ..third_party.FasterRCNN.FasterRCNN.config import *
+from ..third_party.FasterRCNN.FasterRCNN.config import config
 
 _C = config
 # The proposed method related hyperparams.
